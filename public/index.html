@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AI Text Summarizer App</title>
+    <link rel="stylesheet" href="stylesheet.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMt23cez/5paNdF+TmFE5Mg5KTot2K3fkkC1bt3" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <h1>AI Text Summarizer App</h1>
+    <p> Welcome to the AI Text Summarizer App! This app leverages the power of Artificial Intelligence APIs to provide concise summaries of long texts. Whether you have a lengthy article, research paper, or any other text document that you want to summarize quickly, our app can assist you. </p>
+    <p> Simply paste your text into the text area below and click the "Submit" button. </p>
+    <div class="container">
+      <div class="text-box">
+        <textarea id="text_to_summarize" name="text_to_summarize" placeholder="Paste in some text to summarize. (Min length is 200 chars. Max length is 100,000 chars.)" maxlength="100000"></textarea>
+        <button id="submit-button" class="submit-button" >
+          <span class="submit-button-text">Summarize</span>
+        </button>
+      </div>
+      <div class="text-box"> 
+      <textarea id="summary" name="summarized_text" placeholder="Summarized text will appear here"> </textarea>
+      </div>
+    </div>
+    <!-- CREDIT SECTION HERE -->
+    <div id="credit-section">
+        
+        <img id="credit-img" src="https://avatars.githubusercontent.com/u/71584855?v=4" alt="Akhil Gurrapu">
+        <div id="credit-text">
+            <div id="developer-name">Developed by <strong>Akhil Gurrapu</strong></div>
+            <div id="technologies">Technologies used: Postman, Replit, HuggingFace, Express, HTML, CSS, JavaScript</div>
+            <div id="social-links">
+                
+                <a href="https://github.com/AkhilGurrapu" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub">
+                  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Icon">
+                </a>
+                <a href="https://linkedin.com/in/akhilgurrapu" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn">
+                  <img src="https://static-00.iconduck.com/assets.00/linkedin-icon-2048x2048-ya5g47j2.png" alt="LinkedIn Icon">
+                </a>
+                <a href="https://www.akhilgurrapu.com" target="_blank" rel="noopener noreferrer" class="social-icon" title="Personal Website">
+                  <img src="https://img.freepik.com/premium-vector/blue-square-with-globe-icon-it_876006-15.jpg" alt="Website Icon">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- CREDIT SECTION ENDS HERE -->
+    <script src="script.js"></script>
+  </body>
+</html>
+
